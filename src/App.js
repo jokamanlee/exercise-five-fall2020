@@ -40,7 +40,7 @@ function App() {
     //this is what you will run when you want to log in
     e.preventDefault();
     const email = e.currentTarget.loginEmail.value;
-    const password = e.currentTarget.loginPassowrd.value;
+    const password = e.currentTarget.loginPassword.value;
 
     firebase
       .auth()
