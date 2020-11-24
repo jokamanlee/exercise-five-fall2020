@@ -4,4 +4,4 @@ function UserProfileComponent() {
   return <div></div>;
 }
 
-export default UserProfile;
+export default UserProfileComponent;

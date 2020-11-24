@@ -4,4 +4,4 @@ function CreateAccountForm() {
   return <div></div>;
 }
 
-export default UserProfile;
+export default CreateAccountForm;
