@@ -42,7 +42,7 @@ function App() {
       if (user) {
         //user is logged in
         setLoggedIn(true);
-        setUserInformation({ user });
+        setUserInformation(user);
       } else {
         setLoggedIn(false);
       }

@@ -6,11 +6,11 @@ function UserProfileComponent({ userInformation }) {
     <div>
       <p>
         <strong>UID:</strong>
-        {userInformation.user.uid}
+        {userInformation.uid}
       </p>
       <p>
         <strong>Email:</strong>
-        {userInformation.user.email}
+        {userInformation.email}
       </p>
     </div>
   );
